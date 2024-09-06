@@ -52,10 +52,26 @@ _class: title
 ---
 
 <!-- 
-_class: title
+_class: title no-margin
  -->
 
-# Interview with Mr. Stephen Marsden
+<div class='grid grid-cols-2'>
+
+<div class='flex flex-col items-center justify-center'>
+
+# Interview with Mr. Stephen Marsden { .!text-3xl }
+
+**Interviewer**: Dan Tran
+
+</div>
+
+<div class='bg-primary h-screen items-center justify-center flex'>
+
+<img class='w-80 rounded-full' src='https://www.qut.edu.au/__data/assets/image/0013/1231231/varieties/sp-profile-large.jpg'/>
+
+</div>
+
+</div>
 
 ---
 
@@ -297,10 +313,24 @@ To prepare for the interview, we...
 ---
 
 <!-- 
-_class: title
+_class: title no-margin
  -->
 
-# Interview with Dr. Richard Medland
+<div class='grid grid-cols-2'>
+
+<div class='bg-primary h-screen items-center justify-center flex'>
+
+<img class='w-80 h-80 object-cover rounded-full' src='https://unistars.org/wp-content/uploads/2017/05/RichardMedland.png'/>
+
+</div>
+
+<div class='flex items-center justify-center'>
+
+# Interview with Dr. Richard Medland { .!text-3xl }
+
+</div>
+
+</div>
 
 ---
 
@@ -335,9 +365,9 @@ _class: title
 
 Richard Medland works in the field of medical research and genetics. His work primarily focuses on psychiatric genetics and the study of how genetic factors contribute to mental health disorders. Hence there is a minimalistic customer service area he focuses on. While the below aspects are not customer service in the traditional sense, they involve similar principles of communication, respect, and integrity."
 
-- ==Engagement with Research Participants==: Ensuring that participants in research studies are treated with respect and their concerns are addressed appropriately. This involves clear communication about the research process and maintaining confidentiality.
+- ==Communication with Students==: He often need to communicate effectively with  students, discussing their’ progress, addressing any issues, and providing resources to help students succeed.
 
-- ==Collaborations and Partnerships==: Building and maintaining productive relationships with colleagues, research partners, and institutions. This involves being responsive and supportive in collaborative projects.
+- ==Professional Development==: He involves in current affairs for their own ongoing learning to stay current with developments in their field. He also shares his knowledge and best practices with colleagues and contribute to the professional learning community.
 
 - ==Dissemination of Research==: Communicating research findings effectively to the scientific community and the public. This includes presenting at conferences, publishing in journals, and engaging in discussions about his research.
 
