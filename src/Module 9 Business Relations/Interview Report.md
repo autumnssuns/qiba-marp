@@ -293,12 +293,95 @@ To prepare for the interview, we...
 
 ---
 
-# Todo (Will be removed in final presentation)
+<!-- 
+_class: title
+ -->
 
-- Richard's interview
-- Compare and reflect on both interviews:
-  - Similarities
-  - Differences
-  - Usefulness
-- Edit and refine slides
-- Peer evaluation
+# Interview with Dr. Richard Medland
+
+---
+
+# Introduction
+
+- Richard Medland is an Australian researcher and medical professional known for his work in genetics and psychiatry. In addition, he is a professional educator who teaches STEM units in universities.
+
+- He is particularly recognized for his contributions to understanding the genetic basis of mental health disorders and complex traits. Medland's research often focuses on how genetic and environmental factors contribute to conditions such as depression, schizophrenia, and bipolar disorder.
+
+- His work is influential in the field of psychiatric genetics and has contributed to the broader understanding of how genetic variations can impact mental health.
+
+---
+
+# Professional Background { .!m-0}
+
+> [!CALLOUT QUOTE TEXT-SM] 
+> 
+> **Q**: What ==sector== are you currently working in? { class="!text-md !w-full m-0" }
+
+- Richard Medland is a Senior STEM Educator. He has been teaching STEM subject since past decade. 
+- He works in the field of medical research and genetics. His work primarily focuses on psychiatric genetics and the study of how genetic factors contribute to mental health disorders. This places him in the sector of medical research and genetics rather than traditional commercial sectors like retail or IT.
+
+---
+
+# Roles & Responsibilities { .!m-0}
+
+> [!CALLOUT QUOTE TEXT-SM]
+>
+> **Q**: What kind of ==responsibilities== do you have in the area of customer service?
+
+<small class='text-xs'>
+
+Richard Medland works in the field of medical research and genetics. His work primarily focuses on psychiatric genetics and the study of how genetic factors contribute to mental health disorders. Hence there is a minimalistic customer service area he focuses on. While the below aspects are not customer service in the traditional sense, they involve similar principles of communication, respect, and integrity."
+
+- **Engagement with Research Participants**: Ensuring that participants in research studies are treated with respect and their concerns are addressed appropriately. This involves clear communication about the research process and maintaining confidentiality.
+
+- **Collaborations and Partnerships**: Building and maintaining productive relationships with colleagues, research partners, and institutions. This involves being responsive and supportive in collaborative projects.
+
+- **Dissemination of Research**: Communicating research findings effectively to the scientific community and the public. This includes presenting at conferences, publishing in journals, and engaging in discussions about his research.
+
+</small>
+
+---
+
+# Organisational Procedures { .!m-0}
+
+> [!CALLOUT QUOTE TEXT-SM]
+>
+> **Q**: Does QUT have particular **procedures** for ethical business practice or ways to improve customer relations?
+
+<small class='text-xs'>
+
+Ethical Business Practices are the form of every organisation’s core values.
+
+- **Research Ethics**: QUT adheres to strict guidelines for ethical research, including the protection of human subjects, informed consent, and data confidentiality. The university has Research Ethics Committees (RECs) that review and approve research proposals to ensure compliance with ethical standards.
+
+- **Code of Conduct**: The university has a Code of Conduct that applies to staff, students, and affiliates. This code outlines expected behaviors and ethical standards, including integrity, fairness, and respect in all professional interactions.
+
+- **Transparency and Accountability**: QUT strives for transparency in its operations and decision-making processes. This includes regular reporting on university performance and engaging with stakeholders to address concerns and gather feedback.
+
+- **Engagement with Stakeholders**: QUT focuses on maintaining strong relationships with various stakeholders, including students, faculty, industry partners, and the community. This is achieved through regular communication, feedback mechanisms, and collaborative projects.
+
+</small>
+
+---
+
+# Building Relationships { .!m-0 }
+
+> [!CALLOUT QUOTE TEXT-SM]
+>
+> **Q**: What advice can you give about ==building good relationships== with customers and professional colleagues?
+
+<small class='text-xs'>
+
+- **Clarity and Honesty**: Always communicate clearly and be transparent. Ensure that information is conveyed in a straightforward manner and be honest in all interactions.
+
+- **Active Listening**: Pay close attention to what others are saying. This shows respect and helps in understanding their needs and concerns.
+
+- **Seek Feedback**: Regularly ask for feedback to understand how you can improve. This shows that you value others' opinions and are committed to personal and professional growth.
+
+- **Show Empathy**: Understand and acknowledge the feelings and perspectives of others. This helps in building stronger, more supportive relationships.
+
+- **Confidentiality**: Respect the confidentiality of sensitive information, whether it's personal, professional, or related to your work.
+
+- And at last, a simple smile and say **G’day or acknowledge** them.
+
+</small>

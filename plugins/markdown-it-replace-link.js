@@ -50,7 +50,7 @@ function replaceHTML(token, replace, env) {
   console.log('after\t', token.content);
 }
 
-module.exports = function (md, opts) {
+const plugin = function (md, opts) {
   md.core.ruler.after('inline', 'replace-link', function (state) {
     let replace;
 
@@ -96,3 +96,33 @@ module.exports = function (md, opts) {
     return false;
   });
 };
+
+// // Test the plugin
+// const markdownIt = require('markdown-it');
+// const BASE_URL = '/base/';
+
+// function prependLinkWithBaseUrl(link, env, token, htmlToken) {
+//   console.log(link);
+//   // If link does not start with a . or /, prepend the base URL
+//   if (!link.startsWith('.') && !link.startsWith('/')) {
+//     console.log('prependLinkWithBaseUrl', BASE_URL, link);
+//     return BASE_URL + link;
+//   }
+//   return link;
+// }
+
+// const md = markdownIt().use(plugin, {
+//   processHTML: true,
+//   replaceLink: prependLinkWithBaseUrl,
+// });
+
+// const input = `
+// <div>
+// <script src="src.js"></script>
+// </div>
+// `;
+
+// const result = md.render(input);
+// console.log(decodeURI(result));
+
+module.exports = plugin;
