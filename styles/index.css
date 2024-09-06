@@ -1,0 +1,337 @@
+/* @theme tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import-theme 'default';
+
+:root {
+  /* primary: purple, secondary: blue, ternary: yellow */
+  --color-primary: #2563eb;
+  --color-secondary: #0ea5e9;
+  --color-ternary: #f5e50b;
+  --color-text: #333;
+  --color-background: #fff;
+  --color-info: #3498db;
+  --color-success: #07bc0c;
+  --color-warning: #f39c12;
+  --color-danger: #e74c3c;
+  font-family: 'Arial', sans-serif;
+}
+
+section::before {
+  @apply absolute content-none top-0 left-0 w-full h-full -z-[1000];
+}
+
+section {
+  @apply relative justify-start -z-[999];
+}
+
+section.title {
+  @apply justify-center;
+}
+
+section.title h1 {
+  @apply w-3/4 font-bold text-4xl;
+}
+
+section.no-margin {
+  @apply p-0;
+}
+
+h1 {
+  color: var(--color-primary);
+}
+
+ol,
+ul {
+  list-style: initial;
+}
+
+.gradient {
+  background: linear-gradient(
+    in oklch 90deg,
+    var(--color-primary) 0%,
+    var(--color-secondary) 100%
+  );
+  color: var(--color-background);
+}
+
+mark {
+  background: linear-gradient(
+    in oklch 90deg,
+    var(--color-primary) 0%,
+    var(--color-secondary) 100%
+  );
+  color: var(--color-background);
+  padding: 0 0.25rem;
+}
+
+.blockquote-container:not(.box) {
+  @apply shadow hover:shadow-2xl block;
+}
+
+.callout {
+  position: relative;
+  padding: 0 0.5rem;
+  margin: 0.25rem 0;
+  border-left: 0.25rem solid var(--callout-color);
+  transition: all 150ms ease-in-out;
+}
+
+.callout > .blockquote-container-title {
+  padding-top: 0.25rem;
+  color: var(--callout-color);
+}
+
+.callout::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.25;
+  background: color-mix(
+    in srgb,
+    var(--callout-color) 20%,
+    var(--color-background)
+  );
+  z-index: -1;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.callout.note {
+  --callout-color: var(--color-info);
+}
+
+.callout.warning {
+  --callout-color: var(--color-warning);
+}
+
+.callout.danger {
+  --callout-color: var(--color-danger);
+}
+
+.callout.success {
+  --callout-color: var(--color-success);
+}
+
+.callout.quote {
+  --callout-color: var(--color-text);
+}
+
+/* ---------------------------------- CARD STYLES ---------------------------------- */
+
+p {
+  margin: 0.25rem 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-background);
+  transition: all 150ms ease-in-out;
+}
+
+.card:not(.simple) .blockquote-container-title {
+  background: linear-gradient(
+    in oklch 90deg,
+    var(--color-primary) 0%,
+    var(--color-secondary) 100%
+  );
+  color: var(--color-background);
+}
+
+.card .blockquote-container-title {
+  padding: 0 0.5rem;
+}
+
+.card .blockquote-container-body {
+  padding: 0.5rem;
+  color: var(--color-text);
+}
+
+.hidden > .blockquote-container-body {
+  filter: blur(0.5rem);
+  transition: all 150ms ease-in-out;
+}
+
+.hidden:hover > .blockquote-container-body {
+  filter: blur(0);
+}
+
+/* ---------------------------------- STACK STYLES ---------------------------------- */
+
+.stacked {
+  display: flex;
+  & > * {
+    flex: 1;
+    &:hover {
+      scale: 1.05;
+      transition: all 150ms ease-in-out;
+    }
+  }
+
+  &.flex-row {
+    & > *:hover {
+      transform: translateY(1rem);
+    }
+    & > *:not(:last-child) {
+      margin-right: var(--stack-gap, -5%);
+    }
+    & > *:not(:first-child) {
+      margin-left: var(--stack-gap, -5%);
+    }
+  }
+
+  &.flex-col {
+    & > *:hover {
+      transform: translateX(1rem);
+    }
+    & > *:not(:last-child) {
+      margin-bottom: var(--stack-gap, -5%);
+    }
+    & > *:not(:first-child) {
+      margin-top: var(--stack-gap, -5%);
+    }
+  }
+}
+
+/* -------------------- HIGHLIGHT JS ----------------------- */
+
+/*!
+  Theme: GitHub Dark
+  Description: Dark theme as seen on github.com
+  Author: github.com
+  Maintainer: @Hirse
+  Updated: 2021-05-15
+
+  Outdated base version: https://github.com/primer/github-syntax-dark
+  Current colors taken from GitHub's CSS
+*/
+
+code {
+  border-radius: 0;
+}
+
+marp-pre {
+  border-radius: 0;
+}
+
+pre,
+.hljs {
+  color: #c9d1d9;
+  background: #0d1117;
+}
+
+.hljs-doctag,
+.hljs-keyword,
+.hljs-meta .hljs-keyword,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-type,
+.hljs-variable.language_ {
+  /* prettylights-syntax-keyword */
+  color: #ff7b72;
+}
+
+.hljs-title,
+.hljs-title.class_,
+.hljs-title.class_.inherited__,
+.hljs-title.function_ {
+  /* prettylights-syntax-entity */
+  color: #d2a8ff;
+}
+
+.hljs-attr,
+.hljs-attribute,
+.hljs-literal,
+.hljs-meta,
+.hljs-number,
+.hljs-operator,
+.hljs-variable,
+.hljs-selector-attr,
+.hljs-selector-class,
+.hljs-selector-id {
+  /* prettylights-syntax-constant */
+  color: #79c0ff;
+}
+
+.hljs-regexp,
+.hljs-string,
+.hljs-meta .hljs-string {
+  /* prettylights-syntax-string */
+  color: #a5d6ff;
+}
+
+.hljs-built_in,
+.hljs-symbol {
+  /* prettylights-syntax-variable */
+  color: #ffa657;
+}
+
+.hljs-comment,
+.hljs-code,
+.hljs-formula {
+  /* prettylights-syntax-comment */
+  color: #8b949e;
+}
+
+.hljs-name,
+.hljs-quote,
+.hljs-selector-tag,
+.hljs-selector-pseudo {
+  /* prettylights-syntax-entity-tag */
+  color: #7ee787;
+}
+
+.hljs-subst {
+  /* prettylights-syntax-storage-modifier-import */
+  color: #c9d1d9;
+}
+
+.hljs-section {
+  /* prettylights-syntax-markup-heading */
+  color: #1f6feb;
+  font-weight: bold;
+}
+
+.hljs-bullet {
+  /* prettylights-syntax-markup-list */
+  color: #f2cc60;
+}
+
+.hljs-emphasis {
+  /* prettylights-syntax-markup-italic */
+  color: #c9d1d9;
+  font-style: italic;
+}
+
+.hljs-strong {
+  /* prettylights-syntax-markup-bold */
+  color: #c9d1d9;
+  font-weight: bold;
+}
+
+.hljs-addition {
+  /* prettylights-syntax-markup-inserted */
+  color: #aff5b4;
+  background-color: #033a16;
+}
+
+.hljs-deletion {
+  /* prettylights-syntax-markup-deleted */
+  color: #ffdcd7;
+  background-color: #67060c;
+}
+
+.hljs-char.escape_,
+.hljs-link,
+.hljs-params,
+.hljs-property,
+.hljs-punctuation,
+.hljs-tag {
+  /* purposely ignored */
+}

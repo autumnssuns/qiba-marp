@@ -1,0 +1,11 @@
+**/*.html
+**/*.pdf
+**/*.pptx
+
+node_modules
+dist
+build
+.local.config.js
+
+# Tailwind build
+themes/index.css
