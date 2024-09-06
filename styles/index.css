@@ -9,7 +9,7 @@
   /* primary: purple, secondary: blue, ternary: yellow */
   --color-primary: #2563eb;
   --color-secondary: #0ea5e9;
-  --color-ternary: #f5e50b;
+  --color-ternary: #590bf5;
   --color-text: #333;
   --color-background: #fff;
   --color-info: #3498db;
@@ -67,6 +67,10 @@ mark {
   padding: 0 0.25rem;
 }
 
+.animate.indent > * {
+  @apply hover:translate-x-4 transition-all;
+}
+
 .blockquote-container:not(.box) {
   @apply shadow hover:shadow-2xl block;
 }
@@ -120,6 +124,10 @@ mark {
 
 .callout.quote {
   --callout-color: var(--color-text);
+}
+
+.callout.important {
+  --callout-color: var(--color-ternary);
 }
 
 /* ---------------------------------- CARD STYLES ---------------------------------- */
