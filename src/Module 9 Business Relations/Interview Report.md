@@ -123,14 +123,14 @@ To prepare for the interview, we...
 
 **Secondary**: Accounting practice for SMEs (owner)
 
-<details>
-<summary class='text-primary font-bold w-full group'>
+<div>
+<div class='text-primary font-bold w-full group'>
 
 **Units Coordinated** { .!inline-block class="group-hover:bg-primary group-hover:text-background transition-all px-2" }
 
 <hr class='bg-primary m-0 h-[2px] p-0 bg-gradient-to-r from-primary to-white'>
 
-</summary>
+</div>
 
 <div class='grid grid-cols-3 gap-4 mt-2 w-full'>
 
@@ -151,7 +151,7 @@ To prepare for the interview, we...
 
 </div>
 
-</details>
+</div>
 
 
 
@@ -231,38 +231,41 @@ To prepare for the interview, we...
 
 > [!CARD] **Advice**
 > 
-> <details  class='m-0'>
-> <summary>
+> <div class='m-0'>
 > 
 > Be **approachable** and **accessible** { .!inline-block .m-0 }
-> </summary>
+>
+> <div class='text-xs'>
 > 
 > - Be available for consultation
 > - Create a safe and supportive environment
-> 
-> </details>
 >
-> <details class='m-0'>
-> <summary>
+> </div>
+> </div>
+>
+> <div class='m-0'>
 > 
 > Understanding **needs** of students { .!inline-block .m-0 }
-> </summary>
-> 
+>
+> <div class='text-xs'>
+>
 > - Active listening
 > - Providing timely feedback
 >
-> </details>
+> </div>
 >
-> <details class='m-0'>
-> <summary>
+> </div>
+>
+> <div class='m-0'>
 > 
 > **Honesty** and **transparency** { .!inline-block .m-0 }
-> </summary>
-> 
+>
+> <div class='text-xs'>
+>
 > - Admit mistakes
 > - Set realistic and clear expectations
->
-> </details>
+> </div>
+> </div>
 
 </small>
 
@@ -332,11 +335,11 @@ _class: title
 
 Richard Medland works in the field of medical research and genetics. His work primarily focuses on psychiatric genetics and the study of how genetic factors contribute to mental health disorders. Hence there is a minimalistic customer service area he focuses on. While the below aspects are not customer service in the traditional sense, they involve similar principles of communication, respect, and integrity."
 
-- **Engagement with Research Participants**: Ensuring that participants in research studies are treated with respect and their concerns are addressed appropriately. This involves clear communication about the research process and maintaining confidentiality.
+- ==Engagement with Research Participants==: Ensuring that participants in research studies are treated with respect and their concerns are addressed appropriately. This involves clear communication about the research process and maintaining confidentiality.
 
-- **Collaborations and Partnerships**: Building and maintaining productive relationships with colleagues, research partners, and institutions. This involves being responsive and supportive in collaborative projects.
+- ==Collaborations and Partnerships==: Building and maintaining productive relationships with colleagues, research partners, and institutions. This involves being responsive and supportive in collaborative projects.
 
-- **Dissemination of Research**: Communicating research findings effectively to the scientific community and the public. This includes presenting at conferences, publishing in journals, and engaging in discussions about his research.
+- ==Dissemination of Research==: Communicating research findings effectively to the scientific community and the public. This includes presenting at conferences, publishing in journals, and engaging in discussions about his research.
 
 </small>
 
@@ -352,13 +355,13 @@ Richard Medland works in the field of medical research and genetics. His work pr
 
 Ethical Business Practices are the form of every organisation’s core values.
 
-- **Research Ethics**: QUT adheres to strict guidelines for ethical research, including the protection of human subjects, informed consent, and data confidentiality. The university has Research Ethics Committees (RECs) that review and approve research proposals to ensure compliance with ethical standards.
+- ==Research Ethics==: QUT adheres to strict guidelines for ethical research, including the protection of human subjects, informed consent, and data confidentiality. The university has Research Ethics Committees (RECs) that review and approve research proposals to ensure compliance with ethical standards.
 
-- **Code of Conduct**: The university has a Code of Conduct that applies to staff, students, and affiliates. This code outlines expected behaviors and ethical standards, including integrity, fairness, and respect in all professional interactions.
+- ==Code of Conduct==: The university has a Code of Conduct that applies to staff, students, and affiliates. This code outlines expected behaviors and ethical standards, including integrity, fairness, and respect in all professional interactions.
 
-- **Transparency and Accountability**: QUT strives for transparency in its operations and decision-making processes. This includes regular reporting on university performance and engaging with stakeholders to address concerns and gather feedback.
+- ==Transparency and Accountability==: QUT strives for transparency in its operations and decision-making processes. This includes regular reporting on university performance and engaging with stakeholders to address concerns and gather feedback.
 
-- **Engagement with Stakeholders**: QUT focuses on maintaining strong relationships with various stakeholders, including students, faculty, industry partners, and the community. This is achieved through regular communication, feedback mechanisms, and collaborative projects.
+- ==Engagement with Stakeholders==: QUT focuses on maintaining strong relationships with various stakeholders, including students, faculty, industry partners, and the community. This is achieved through regular communication, feedback mechanisms, and collaborative projects.
 
 </small>
 
@@ -372,16 +375,16 @@ Ethical Business Practices are the form of every organisation’s core values.
 
 <small class='text-xs'>
 
-- **Clarity and Honesty**: Always communicate clearly and be transparent. Ensure that information is conveyed in a straightforward manner and be honest in all interactions.
+- ==Clarity and Honesty==: Always communicate clearly and be transparent. Ensure that information is conveyed in a straightforward manner and be honest in all interactions.
 
-- **Active Listening**: Pay close attention to what others are saying. This shows respect and helps in understanding their needs and concerns.
+- ==Active Listening==: Pay close attention to what others are saying. This shows respect and helps in understanding their needs and concerns.
 
-- **Seek Feedback**: Regularly ask for feedback to understand how you can improve. This shows that you value others' opinions and are committed to personal and professional growth.
+- ==Seek Feedback==: Regularly ask for feedback to understand how you can improve. This shows that you value others' opinions and are committed to personal and professional growth.
 
-- **Show Empathy**: Understand and acknowledge the feelings and perspectives of others. This helps in building stronger, more supportive relationships.
+- ==Show Empathy==: Understand and acknowledge the feelings and perspectives of others. This helps in building stronger, more supportive relationships.
 
-- **Confidentiality**: Respect the confidentiality of sensitive information, whether it's personal, professional, or related to your work.
+- ==Confidentiality==: Respect the confidentiality of sensitive information, whether it's personal, professional, or related to your work.
 
-- And at last, a simple smile and say **G’day or acknowledge** them.
+- And at last, a simple smile and say ==G’day or acknowledge== them.
 
 </small>
