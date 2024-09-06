@@ -77,7 +77,7 @@ _class: title no-margin
 
 # Interview preparation
 
-To prepare for the interview, we...
+To prepare for the interview, I...
 
 <div class='grid grid-cols-2 gap-4 mt-4'>
 
@@ -418,3 +418,12 @@ Ethical Business Practices are the form of every organisation’s core values.
 - And at last, a simple smile and say ==G’day or acknowledge== them.
 
 </small>
+
+---
+
+# Reflection
+
+The key points/takeaway from the interview with Dr Richard Medland are the following:
+- To build and maintain relationships with your stakeholders, we require professional and clear communication and be smartly responsive, seek feedback, show empathy to others to make them feel comfortable, and maintain confidentiality. 
+- The difference in management of key stakeholders and their way of handling professionalism.
+- The variety of code of conduct and regulations to maintain the expected behaviour and ethical standards.
