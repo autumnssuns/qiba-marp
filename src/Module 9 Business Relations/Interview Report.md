@@ -123,7 +123,7 @@ _class: timer timer-25
 - **Location**: Online via Zoom
 - **Duration**: 30 minutes
 - **Time**: 7:00 PM, Thursday, 05/09/2024
-- **Attendees**: Dan Tran, Darshit Parikh, Stephen Marsden
+- **Attendees**: Dan Tran, Darshit Parikh, Mr. Stephen Marsden
 - **Agenda**:
   - 7 minutes: Introduction
   - 20 minutes: Interview - 4 questions (including follow-ups)
