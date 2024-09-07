@@ -214,7 +214,7 @@ const html = `<!DOCTYPE html>
     <div class='mb-4'>
       This site is built using <a href="https://marp.app/">Marp</a>, a Markdown Presentation Ecosystem.
     </div>
-    <div class='flex flex-row gap-20 text-nowrap'>
+    <div class='flex flex-row gap-20 text-nowrap mt-4'>
       <div class='leading-relaxed flex-1'>
         ${treeToHtml(buildTree(slides))}
       </div>
