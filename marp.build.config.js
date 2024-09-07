@@ -12,6 +12,7 @@ const BASE_URL = process.env.BASE_URL || localConfig.baseUrl;
 const markdownItReplaceLink = require('./plugins/markdown-it-replace-link');
 
 function prependLinkWithBaseUrl(link, env, token, htmlToken) {
+  if (link.startsWith('http')) return link;
   console.log(link);
   // If link does not start with a . or /, prepend the base URL
   if (!link.startsWith('.') && !link.startsWith('/')) {
