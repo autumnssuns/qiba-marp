@@ -270,12 +270,12 @@
   gap: 0.5rem;
 }
 
-.gap-20{
-  gap: 5rem;
-}
-
 .gap-4{
   gap: 1rem;
+}
+
+.gap-8{
+  gap: 2rem;
 }
 
 .text-nowrap{
@@ -893,4 +893,14 @@ pre,
 .group:hover .group-hover\:text-background{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px){
+  .lg\:flex-row{
+    flex-direction: row;
+  }
+
+  .lg\:gap-40{
+    gap: 10rem;
+  }
 }
