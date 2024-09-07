@@ -1,6 +1,7 @@
 ---
 marp: true
 theme: tailwind
+transition: fade 0.15s
 size: 16:9
 ---
 
@@ -380,7 +381,7 @@ _class: title no-margin
 
 <div class='bg-primary h-screen items-center justify-center flex'>
 
-<img class='w-80 h-80 object-cover rounded-full' src='https://unistars.org/wp-content/uploads/2017/05/RichardMedland.png' style='border: 8px solid white;'/>
+<img class='w-80 h-80 object-cover rounded-full shadow-lg' src='https://unistars.org/wp-content/uploads/2017/05/RichardMedland.png' style='border: 8px solid white;'/>
 
 </div>
 
