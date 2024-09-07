@@ -240,7 +240,7 @@ _class: timer timer-35
 
 > [!CALLOUT QUOTE TEXT-SM]
 >
-> **Q**: Does QUT have particular **procedures** for ethical business practice or ways to improve customer relations?
+> **Q**: Does QUT have particular ==procedures== for ethical business practice or ways to improve customer relations?
 
 **QUT Staff Code of Conduct**
 - To uphold the community’s ==trust== and ==confidence==
@@ -394,7 +394,7 @@ _class: title no-margin
 
 > [!CALLOUT QUOTE TEXT-SM] 
 > 
-> **Q**: What ==sector== are you currently working in? { class="!text-md !w-full m-0" }
+> **Q**: In what Sector (e.g. retail, IT, hospitality, accounting, engineering) do you work? { class="!text-md !w-full m-0" }
 
 - Richard Medland is a Senior STEM Educator. He has been teaching STEM subject since past decade. 
 - He works in the field of medical research and genetics. His work primarily focuses on psychiatric genetics and the study of how genetic factors contribute to mental health disorders. This places him in the sector of medical research and genetics rather than traditional commercial sectors like retail or IT.
@@ -405,7 +405,7 @@ _class: title no-margin
 
 > [!CALLOUT QUOTE TEXT-SM]
 >
-> **Q**: What kind of ==responsibilities== do you have in the area of customer service?
+> **Q**: What kind of responsibilities do you have in the area of customer service? 
 
 <small class='text-xs'>
 
@@ -425,7 +425,7 @@ Richard Medland works in the field of medical research and genetics. His work pr
 
 > [!CALLOUT QUOTE TEXT-SM]
 >
-> **Q**: Does QUT have particular **procedures** for ethical business practice or ways to improve customer relations?
+> **Q**: Does your organization have particular procedures for ethical business practice or ways to improve customer relations?
 
 <small class='text-xs'>
 
@@ -447,7 +447,7 @@ Ethical Business Practices are the form of every organisation’s core values.
 
 > [!CALLOUT QUOTE TEXT-SM]
 >
-> **Q**: What advice can you give about ==building good relationships== with customers and professional colleagues?
+> **Q**: What advise can you give about building good relationships with customers and professional colleagues?
 
 <small class='text-xs'>
 
