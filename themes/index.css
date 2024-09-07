@@ -209,6 +209,14 @@
   width: 100%;
 }
 
+.max-w-lg{
+  max-width: 32rem;
+}
+
+.flex-1{
+  flex: 1 1 0%;
+}
+
 .cursor-pointer{
   cursor: pointer;
 }
@@ -245,12 +253,24 @@
   justify-content: center;
 }
 
+.justify-between{
+  justify-content: space-between;
+}
+
 .gap-2{
   gap: 0.5rem;
 }
 
+.gap-20{
+  gap: 5rem;
+}
+
 .gap-4{
   gap: 1rem;
+}
+
+.text-nowrap{
+  text-wrap: nowrap;
 }
 
 .rounded{
@@ -342,9 +362,8 @@
   padding-right: 1rem;
 }
 
-.px-8{
+.pl-8{
   padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .\!text-right{

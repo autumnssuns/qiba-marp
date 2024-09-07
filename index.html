@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Slides Index</title>
-  <link rel="stylesheet" href="themes/index.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
-</head>
-<body class="p-8">
-  <h1>Slides Index</h1>
-  <div class='leading-relaxed'>
-    <p><details open class="group">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slides Index</title>
+    <link rel="stylesheet" href="themes/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <script>
+      function togglePreview(url) {
+        const preview = document.getElementById('preview');
+        // Decode the URL and set it as the src of the iframe
+        const decoded = decodeURI(url);
+        console.log(decoded);
+        preview.src = decoded;
+      }
+    </script>
+  </head>
+  <body class="p-8">
+    <h1>Slides Index</h1>
+    <div class='flex flex-row gap-20 text-nowrap'>
+      <div class='leading-relaxed flex-1'>
+        <p><details open class="group">
         <summary class="group flex items-center cursor-pointer">
           <span class="group-open:hidden mr-4">
             <i class="bi bi-caret-right"></i>
@@ -19,11 +29,19 @@
             <i class="bi bi-caret-down"></i>
           </span>
           Module 9 Business Relations
-        </summary><div class="px-8"><p><div class="flex items-center hover:text-white hover:bg-primary p-2 rounded-md">
-        <i class="bi bi-file-earmark-slides mr-2"></i><a class="text-inherit w-full"
-      href="slides/Module 9 Business Relations/Interview Report.html">Interview Report</a></div></p></div></details></p><p><div class="flex items-center hover:text-white hover:bg-primary p-2 rounded-md">
-        <i class="bi bi-file-earmark-slides mr-2"></i><a class="text-inherit w-full"
-      href="slides/Template.html">Template</a></div></p><p><details open class="group">
+        </summary><div class="pl-8"><p><div class="flex items-center hover:text-white hover:bg-primary p-2 rounded-md">
+        <i class="bi bi-file-earmark-slides mr-2"></i><div class='w-full flex justify-between'><span
+        class="cursor-pointer"
+        onclick="togglePreview('slides/Module%209%20Business%20Relations/Interview%20Report.html')" 
+      >Interview Report</span><a class="text-inherit"
+      href="slides/Module 9 Business Relations/Interview Report.html">
+      <i class="bi bi-arrow-up-right-square"></i></a></div></div></p></div></details></p><p><div class="flex items-center hover:text-white hover:bg-primary p-2 rounded-md">
+        <i class="bi bi-file-earmark-slides mr-2"></i><div class='w-full flex justify-between'><span
+        class="cursor-pointer"
+        onclick="togglePreview('slides/Template.html')" 
+      >Template</span><a class="text-inherit"
+      href="slides/Template.html">
+      <i class="bi bi-arrow-up-right-square"></i></a></div></div></p><p><details open class="group">
         <summary class="group flex items-center cursor-pointer">
           <span class="group-open:hidden mr-4">
             <i class="bi bi-caret-right"></i>
@@ -32,11 +50,24 @@
             <i class="bi bi-caret-down"></i>
           </span>
           demo
-        </summary><div class="px-8"><p><div class="flex items-center hover:text-white hover:bg-primary p-2 rounded-md">
-        <i class="bi bi-file-earmark-slides mr-2"></i><a class="text-inherit w-full"
-      href="slides/demo/components.html">components</a></div></p><p><div class="flex items-center hover:text-white hover:bg-primary p-2 rounded-md">
-        <i class="bi bi-file-earmark-slides mr-2"></i><a class="text-inherit w-full"
-      href="slides/demo/tailwind.html">tailwind</a></div></p></div></details></p>
-  </div>
-</body>
+        </summary><div class="pl-8"><p><div class="flex items-center hover:text-white hover:bg-primary p-2 rounded-md">
+        <i class="bi bi-file-earmark-slides mr-2"></i><div class='w-full flex justify-between'><span
+        class="cursor-pointer"
+        onclick="togglePreview('slides/demo/components.html')" 
+      >components</span><a class="text-inherit"
+      href="slides/demo/components.html">
+      <i class="bi bi-arrow-up-right-square"></i></a></div></div></p><p><div class="flex items-center hover:text-white hover:bg-primary p-2 rounded-md">
+        <i class="bi bi-file-earmark-slides mr-2"></i><div class='w-full flex justify-between'><span
+        class="cursor-pointer"
+        onclick="togglePreview('slides/demo/tailwind.html')" 
+      >tailwind</span><a class="text-inherit"
+      href="slides/demo/tailwind.html">
+      <i class="bi bi-arrow-up-right-square"></i></a></div></div></p></div></details></p>
+      </div>
+      <div class="w-full">
+        <iframe id="preview" src="slides/demo/components.html" class="shadow w-full max-w-lg" style="aspect-ratio: 16/9;">
+        </iframe>
+      </div>
+    </div>
+  </body>
 </html>
