@@ -40,7 +40,13 @@ section.no-margin {
 }
 
 h1 {
-  color: var(--color-primary);
+  background: linear-gradient(
+    in oklch 90deg,
+    var(--color-primary) 0%,
+    var(--color-secondary) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 ol,
@@ -85,7 +91,7 @@ mark {
 }
 
 .blockquote-container:not(.box) {
-  @apply shadow hover:shadow-2xl block;
+  @apply shadow-md hover:shadow-2xl block;
 }
 
 .callout {

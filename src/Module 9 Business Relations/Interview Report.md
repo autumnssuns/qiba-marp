@@ -118,16 +118,30 @@ To prepare for the interview, I...
 _class: timer timer-25
  -->
 
-# The Interview
+# Interview Context
 
-- **Location**: Online via Zoom
-- **Duration**: 30 minutes
-- **Time**: 7:00 PM, Thursday, 05/09/2024
-- **Attendees**: Dan Tran, Darshit Parikh, Mr. Stephen Marsden
-- **Agenda**:
-  - 7 minutes: Introduction
-  - 20 minutes: Interview - 4 questions (including follow-ups)
-  - 3 minutes: Conclusion
+<div class='grid grid-cols-2 gap-4'>
+
+<div>
+
+> [!CARD] **Details**
+> - **Location**: Online via Zoom
+> - **Duration**: 30 minutes
+> - **Time**: 7:00 PM, Thursday, 05/09/2024
+> - **Attendees**: Dan Tran, Darshit Parikh, Mr. Stephen Marsden
+
+</div>
+
+<div>
+
+> [!CARD] **Agenda**
+> - **7 minutes**: Introduction
+> - **20 minutes**: Interview - 4 questions (including follow-ups)
+> - **3 minutes**: Conclusion
+
+</div>
+
+</div>
 
 ---
 
@@ -135,7 +149,9 @@ _class: timer timer-25
 _class: timer timer-30
  -->
 
-# Approach - before we begin...
+# Communication Guidelines
+
+**Purpose**: To ensure ==effective communication== during the interview
 
 <div class='grid grid-cols-2 gap-4 mt-4'>
 
