@@ -6,7 +6,7 @@ size: 16:9
 ---
 
 <!-- 
-_class: title no-margin timer timer-10
+_class: title no-margin timer timer-20
  -->
 
 ![bg blur opacity:0.33](https://images.ctfassets.net/7bkqs8vgq34y/bXwW5R4jPNwokGJLZGeHL/73c4b783c007d1715627d7a4147cf48d/AdobeStock_206335426.jpeg?fit=fill&f=faces&w=1280&fm=webp)
@@ -202,7 +202,7 @@ _class: timer timer-25
 ---
 
 <!-- 
-_class: timer timer-40
+_class: timer timer-35
  -->
 
 # Roles & Responsibilities { .!m-0}
@@ -267,7 +267,7 @@ _class: timer timer-45
 ---
 
 <!-- 
-_class: timer timer-45
+_class: timer timer-40
  -->
 
 # Building Relationships { .!m-0 }
