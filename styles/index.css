@@ -11,7 +11,7 @@
   --color-secondary: #0ea5e9;
   --color-ternary: #590bf5;
   --color-text: #333;
-  --color-background: #fff;
+  --color-background: #f0f0f0;
   --color-info: #3498db;
   --color-success: #07bc0c;
   --color-warning: #f39c12;
@@ -20,7 +20,7 @@
 }
 
 section::before {
-  @apply absolute content-none top-0 left-0 w-full h-full -z-[1000];
+  @apply absolute bg-background content-none top-0 left-0 w-full h-full -z-[1000];
 }
 
 section {

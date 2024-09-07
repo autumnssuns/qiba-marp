@@ -6,13 +6,19 @@ size: 16:9
 ---
 
 <!-- 
-_class: title timer timer-10
+_class: title no-margin timer timer-10
  -->
+
+![bg blur opacity:0.33](https://images.ctfassets.net/7bkqs8vgq34y/bXwW5R4jPNwokGJLZGeHL/73c4b783c007d1715627d7a4147cf48d/AdobeStock_206335426.jpeg?fit=fill&f=faces&w=1280&fm=webp)
 
 <script src="scripts/hidden-toggle.js"></script>
 <script src="scripts/timer.js"></script>
 
-# Managing Workplace Relations - Report on Interview { .!text-3xl }
+<div class='shadow m-8 p-4 bg-white bg-opacity-50'>
+
+# Managing Workplace Relations <br> Report on Interviews { .!text-2xl .!m-0 }
+
+**With**
 
 <div class='grid grid-cols-2 gap-2 text-sm'>
 
@@ -33,6 +39,8 @@ _class: title timer timer-10
 </div>
 
 **Presented by**: Dan Tran and Darshit Parikh
+
+</div>
 
 ---
 
@@ -82,7 +90,7 @@ _class: title no-margin timer timer-5
 ---
 
 <!-- 
-_class: timer timer-30
+_class: timer timer-20
  -->
 
 # Interview preparation
@@ -108,7 +116,7 @@ To prepare for the interview, I...
 ---
 
 <!-- 
-_class: timer timer-15
+_class: timer timer-25
  -->
 
 # The Interview
@@ -148,7 +156,7 @@ _class: timer timer-30
 ---
 
 <!-- 
-_class: timer timer-30
+_class: timer timer-25
  -->
 
 # Professional Background { .!m-0}
@@ -320,7 +328,7 @@ _class: timer timer-45
 ---
 
 <!-- 
-_class: timer timer-40
+_class: timer timer-45
  -->
 
 # Reflection
