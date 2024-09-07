@@ -101,7 +101,6 @@ To prepare for the interview, I...
 > [!CARD] **Research** interviewee & organisation
 > - Profile on QUT website
 > - Academic publications
-> - Units taught
 > - QUT policies
 
 > [!CARD] **Prepare** questions
