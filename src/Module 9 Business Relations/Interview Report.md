@@ -6,10 +6,11 @@ size: 16:9
 ---
 
 <!-- 
-_class: title
+_class: title timer timer-10
  -->
 
 <script src="scripts/hidden-toggle.js"></script>
+<script src="scripts/timer.js"></script>
 
 # Managing Workplace Relations - Report on Interview { .!text-3xl }
 
@@ -35,6 +36,11 @@ _class: title
 
 ---
 
+<!-- 
+_class: timer timer-10
+ -->
+
+
 # Goals
 
 **Demonstrate**:
@@ -52,7 +58,7 @@ _class: title
 ---
 
 <!-- 
-_class: title no-margin
+_class: title no-margin timer timer-5
  -->
 
 <div class='grid grid-cols-2'>
@@ -74,6 +80,10 @@ _class: title no-margin
 </div>
 
 ---
+
+<!-- 
+_class: timer timer-30
+ -->
 
 # Interview preparation
 
@@ -97,6 +107,10 @@ To prepare for the interview, I...
 
 ---
 
+<!-- 
+_class: timer timer-15
+ -->
+
 # The Interview
 
 - **Location**: Online via Zoom
@@ -109,6 +123,10 @@ To prepare for the interview, I...
   - 3 minutes: Conclusion
 
 ---
+
+<!-- 
+_class: timer timer-30
+ -->
 
 # Approach - before we begin...
 
@@ -128,6 +146,10 @@ To prepare for the interview, I...
 </div>
 
 ---
+
+<!-- 
+_class: timer timer-30
+ -->
 
 # Professional Background { .!m-0}
 
@@ -169,9 +191,11 @@ To prepare for the interview, I...
 
 </div>
 
-
-
 ---
+
+<!-- 
+_class: timer timer-40
+ -->
 
 # Roles & Responsibilities { .!m-0}
 
@@ -199,6 +223,10 @@ To prepare for the interview, I...
 > - Witnesses student interactions
 
 ---
+
+<!-- 
+_class: timer timer-45
+ -->
 
 # Organisational Procedures { .!m-0}
 
@@ -229,6 +257,10 @@ To prepare for the interview, I...
 </div>
 
 ---
+
+<!-- 
+_class: timer timer-45
+ -->
 
 # Building Relationships { .!m-0 }
 
@@ -286,6 +318,10 @@ To prepare for the interview, I...
 </small>
 
 ---
+
+<!-- 
+_class: timer timer-40
+ -->
 
 # Reflection
 

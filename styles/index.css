@@ -67,6 +67,19 @@ mark {
   padding: 0 0.25rem;
 }
 
+.timer-counter {
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(
+    in hsl 135deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .animate.indent > * {
   @apply hover:translate-x-4 transition-all;
 }
