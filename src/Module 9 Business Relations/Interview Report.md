@@ -82,7 +82,7 @@ _class: title no-margin timer timer-5
 
 <div class='bg-primary h-screen items-center justify-center flex'>
 
-<img class='w-80 rounded-full' src='https://www.qut.edu.au/__data/assets/image/0013/1231231/varieties/sp-profile-large.jpg'/>
+<img class='w-80 rounded-full' src='https://www.qut.edu.au/__data/assets/image/0013/1231231/varieties/sp-profile-large.jpg' style='border: 8px solid white;'>
 
 </div>
 
@@ -380,7 +380,7 @@ _class: title no-margin
 
 <div class='bg-primary h-screen items-center justify-center flex'>
 
-<img class='w-80 h-80 object-cover rounded-full' src='https://unistars.org/wp-content/uploads/2017/05/RichardMedland.png'/>
+<img class='w-80 h-80 object-cover rounded-full' src='https://unistars.org/wp-content/uploads/2017/05/RichardMedland.png' style='border: 8px solid white;'/>
 
 </div>
 
