@@ -95,6 +95,8 @@ class Node {
   addChild(node) {
     node.parent = this;
     this.children.push(node);
+    // Sort children by value
+    this.children.sort((a, b) => a.value.localeCompare(b.value));
     node.setParent(this);
   }
 
