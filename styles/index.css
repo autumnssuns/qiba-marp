@@ -24,6 +24,11 @@ section::before {
 }
 
 section {
+  background-image: radial-gradient(
+    circle at 100% 100%,
+    color-mix(in srgb, var(--color-primary) 10%, var(--color-background)) 0%,
+    var(--color-background) 100%
+  );
   @apply relative justify-start -z-[999];
 }
 
