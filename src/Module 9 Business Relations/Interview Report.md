@@ -17,18 +17,18 @@ _class: title no-margin timer timer-20
 
 # Managing Workplace Relations <br> Report on Interviews { .!text-3xl .!m-0 }
 
-**With**
-
-<div class='grid grid-cols-2 gap-2 text-sm'>
+<div class='grid grid-cols-2 gap-4 text-sm'>
 
 > [!CARD] **Mr. Stephen Marsden**
 > 
-> **Lecturer**  
+> **Lecturer**
 > 
 > School of Accountancy
 > Queensland University of Technology
 
 > [!CARD] **Dr. Richard Medland**
+>
+> *Ex-manager turned friend*
 >
 > **Senior STEM Educator**
 > 
