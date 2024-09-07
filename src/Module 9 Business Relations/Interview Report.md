@@ -348,7 +348,7 @@ _class: timer timer-45
 
 # Reflection
 
-> [!CALLOUT QUOTE] The single biggest problem in communication is the illusion that it has taken place.
+> [!CALLOUT IMPORTANT] The single biggest problem in communication is the illusion that it has taken place.
 > 
 > \- *George Bernard Shaw* \- { .text-sm .!text-right }
 
