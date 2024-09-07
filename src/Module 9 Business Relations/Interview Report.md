@@ -368,9 +368,11 @@ _class: title no-margin
 
 </div>
 
-<div class='flex items-center justify-center'>
+<div class='flex flex-col items-center justify-center'>
 
 # Interview with Dr. Richard Medland { .!text-3xl }
+
+**Interviewer**: Darshit Parikh
 
 </div>
 
