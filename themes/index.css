@@ -173,6 +173,10 @@
   height: 5rem;
 }
 
+.h-80{
+  height: 20rem;
+}
+
 .h-\[2px\]{
   height: 2px;
 }
@@ -181,12 +185,20 @@
   height: 100%;
 }
 
+.h-screen{
+  height: 100vh;
+}
+
 .\!w-full{
   width: 100% !important;
 }
 
 .w-20{
   width: 5rem;
+}
+
+.w-80{
+  width: 20rem;
 }
 
 .w-full{
@@ -225,6 +237,10 @@
   align-items: center;
 }
 
+.justify-center{
+  justify-content: center;
+}
+
 .gap-2{
   gap: 0.5rem;
 }
@@ -235,6 +251,10 @@
 
 .rounded{
   border-radius: 0.25rem;
+}
+
+.rounded-full{
+  border-radius: 9999px;
 }
 
 .rounded-md{
@@ -267,6 +287,11 @@
 
 .to-white{
   --tw-gradient-to: #fff var(--tw-gradient-to-position);
+}
+
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-0{
