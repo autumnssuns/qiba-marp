@@ -20,6 +20,8 @@ _class: title no-margin timer timer-20
 <div class='grid grid-cols-2 gap-4 text-sm'>
 
 > [!CARD] **Mr. Stephen Marsden**
+>
+> *Career advisor / lecturer*
 > 
 > **Lecturer**
 > 
