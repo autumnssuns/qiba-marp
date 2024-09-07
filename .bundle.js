@@ -96,7 +96,16 @@ class Node {
     node.parent = this;
     this.children.push(node);
     // Sort children by value
-    this.children.sort((a, b) => a.value.localeCompare(b.value));
+    const sortFolderFirst = (a, b) => {
+      if (a.children.length > 0 && b.children.length === 0) {
+        return -1;
+      }
+      if (a.children.length === 0 && b.children.length > 0) {
+        return 1;
+      }
+      return a.value.localeCompare(b.value);
+    };
+    this.children.sort(sortFolderFirst);
     node.setParent(this);
   }
 
