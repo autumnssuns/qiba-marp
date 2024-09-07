@@ -347,11 +347,6 @@
   text-align: right !important;
 }
 
-.\!text-2xl{
-  font-size: 1.5rem !important;
-  line-height: 2rem !important;
-}
-
 .\!text-3xl{
   font-size: 1.875rem !important;
   line-height: 2.25rem !important;
