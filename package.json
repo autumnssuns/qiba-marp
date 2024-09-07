@@ -9,7 +9,8 @@
     "start": "concurrently \"npm run start:tailwind\" \"npm run start:marp\"",
     "build:tailwind": "npx tailwindcss -i ./styles/index.css -o ./themes/index.css",
     "build:slides": "marp -c marp.build.config.js",
-    "build": "npm run build:tailwind && npm run build:slides && node .bundle.js"
+    "build": "npm run build:tailwind && npm run build:slides && node .bundle.js",
+    "build:pptx": "marp --pptx -c marp.build.config.js"
   },
   "repository": {
     "type": "git",

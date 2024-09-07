@@ -141,8 +141,8 @@ _class: timer timer-30
 <div class='grid grid-cols-2 gap-4 mt-4'>
 
 > [!CARD] **Professionalism**
-> - Address as **"Mr. Marsden"** - unless directed otherwise
-> - Turn on **camera**
+> - Address by last name - unless directed otherwise
+> - Turn on camera
 > - Speak clearly and concisely
 > - Dress appropriately
 
@@ -251,7 +251,7 @@ _class: timer timer-35
 <div class='grid grid-cols-2 gap-2'>
 
 > [!CALLOUT HIDDEN] 
-> Being **Responsive** and **Courteous**
+> Being Responsive and Courteous
 
 > [!CALLOUT HIDDEN] 
 > Avoiding Discriminatory, Harassing or Bullying Treatment of Others
