@@ -153,7 +153,7 @@ function treeToHtml(tree, level = 0) {
           </span>
           ${child.value}
         </summary>`;
-      html += `<div class="px-8">${treeToHtml(child, level + 1)}</div>`;
+      html += `<div class="pl-8">${treeToHtml(child, level + 1)}</div>`;
       html += `</details>`;
     } else {
       let pathToLeaf = [];
@@ -166,12 +166,20 @@ function treeToHtml(tree, level = 0) {
         pathToLeaf.push(current.value);
         current = current.parent;
       }
+      const slideRelativePath =
+        path.join('slides', ...pathToLeaf.reverse()) + '.html';
+      const uriEncoded = encodeURI(slideRelativePath);
       html += `<div class="flex items-center hover:text-white hover:bg-primary p-2 rounded-md">
         <i class="bi bi-file-earmark-slides mr-2"></i>`;
-      html += `<a class="text-inherit w-full"
-      href="${path.join('slides', ...pathToLeaf.reverse())}.html">${
-        child.value
-      }</a>`;
+      html += `<div class='w-full flex justify-between'>`;
+      html += `<span
+        class="cursor-pointer"
+        onclick="togglePreview('${uriEncoded}')" 
+      >${child.value}</span>`;
+      html += `<a class="text-inherit"
+      href="${slideRelativePath}">
+      <i class="bi bi-arrow-up-right-square"></i></a>`;
+      html += `</div>`;
       html += `</div>`;
     }
     html += '</p>';
@@ -184,18 +192,33 @@ console.log(buildTree(slides));
 // Create an index.html file in the build to list all the slides
 const html = `<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Slides Index</title>
-  <link rel="stylesheet" href="themes/index.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
-</head>
-<body class="p-8">
-  <h1>Slides Index</h1>
-  <div class='leading-relaxed'>
-    ${treeToHtml(buildTree(slides))}
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slides Index</title>
+    <link rel="stylesheet" href="themes/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <script>
+      function togglePreview(url) {
+        const preview = document.getElementById('preview');
+        // Decode the URL and set it as the src of the iframe
+        const decoded = decodeURI(url);
+        console.log(decoded);
+        preview.src = decoded;
+      }
+    </script>
+  </head>
+  <body class="p-8">
+    <h1>Slides Index</h1>
+    <div class='flex flex-row gap-20 text-nowrap'>
+      <div class='leading-relaxed flex-1'>
+        ${treeToHtml(buildTree(slides))}
+      </div>
+      <div class="w-full">
+        <iframe id="preview" src="slides/demo/components.html" class="shadow w-full max-w-lg" style="aspect-ratio: 16/9;">
+        </iframe>
+      </div>
+    </div>
+  </body>
 </html>`;
 fs.writeFileSync(path.join(buildDir, 'index.html'), html);
