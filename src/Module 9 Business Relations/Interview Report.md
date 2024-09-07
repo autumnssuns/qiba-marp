@@ -266,16 +266,16 @@ _class: timer timer-35
 
 <div class='grid grid-cols-2 gap-2'>
 
-> [!CALLOUT HIDDEN] 
+> [!CALLOUT] 
 > Being Responsive and Courteous
 
-> [!CALLOUT HIDDEN] 
+> [!CALLOUT] 
 > Avoiding Discriminatory, Harassing or Bullying Treatment of Others
 
-> [!CALLOUT HIDDEN] 
+> [!CALLOUT] 
 > Respecting the Privacy of Others
 
-> [!CALLOUT HIDDEN] 
+> [!CALLOUT] 
 > Respecting the Opinions of Others
 
 </div>
