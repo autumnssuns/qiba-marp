@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: tailwind
-transition: fade 0.1s
 size: 16:9
 ---
 
