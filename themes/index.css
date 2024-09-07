@@ -124,6 +124,10 @@
   margin: 0px;
 }
 
+.m-8{
+  margin: 2rem;
+}
+
 .my-2{
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -271,6 +275,15 @@
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-50{
+  --tw-bg-opacity: 0.5;
+}
+
 .bg-gradient-to-r{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -334,6 +347,11 @@
   text-align: right !important;
 }
 
+.\!text-2xl{
+  font-size: 1.5rem !important;
+  line-height: 2rem !important;
+}
+
 .\!text-3xl{
   font-size: 1.875rem !important;
   line-height: 2.25rem !important;
@@ -377,6 +395,11 @@
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.blur{
+  --tw-blur: blur(8px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .transition{
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -399,7 +422,7 @@
   --color-secondary: #0ea5e9;
   --color-ternary: #590bf5;
   --color-text: #333;
-  --color-background: #fff;
+  --color-background: #f0f0f0;
   --color-info: #3498db;
   --color-success: #07bc0c;
   --color-warning: #f39c12;
@@ -414,6 +437,8 @@ section::before{
   z-index: -1000;
   height: 100%;
   width: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-content: none;
   content: var(--tw-content);
 }
