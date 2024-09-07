@@ -209,7 +209,8 @@ const html = `<!DOCTYPE html>
     </script>
   </head>
   <body class="p-8">
-    <h1>Slides Index</h1>
+    <h1>QIBA IT Professional Year Slides Index</h1>
+    <h2>By Dan Tran</h2>
     <div class='mb-4'>
       This site is built using <a href="https://marp.app/">Marp</a>, a Markdown Presentation Ecosystem.
     </div>
@@ -218,7 +219,7 @@ const html = `<!DOCTYPE html>
         ${treeToHtml(buildTree(slides))}
       </div>
       <div class="w-full">
-        <iframe id="preview" src="" class="shadow w-full max-w-lg" style="aspect-ratio: 16/9;">
+        <iframe id="preview" src="slides/Template.html" class="shadow w-full max-w-lg" style="aspect-ratio: 16/9;">
         </iframe>
       </div>
     </div>
