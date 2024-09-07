@@ -15,7 +15,7 @@ _class: title no-margin timer timer-20
 
 <div class='shadow m-8 p-4 bg-white bg-opacity-50'>
 
-# Managing Workplace Relations <br> Report on Interviews { .!text-3xl .!m-0 }
+# Managing Workplace Relations <br> - Report on Interviews { .!text-3xl .!m-0 }
 
 <div class='grid grid-cols-2 gap-4 text-sm'>
 
