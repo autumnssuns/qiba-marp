@@ -120,6 +120,14 @@
   position: relative;
 }
 
+.sticky{
+  position: sticky;
+}
+
+.top-0{
+  top: 0px;
+}
+
 .\!m-0{
   margin: 0px !important;
 }
@@ -226,8 +234,8 @@
   width: 100%;
 }
 
-.max-w-lg{
-  max-width: 32rem;
+.max-w-3xl{
+  max-width: 48rem;
 }
 
 .flex-1{
@@ -264,6 +272,10 @@
 
 .flex-wrap{
   flex-wrap: wrap;
+}
+
+.items-start{
+  align-items: flex-start;
 }
 
 .items-center{
