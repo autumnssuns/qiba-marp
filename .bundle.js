@@ -182,7 +182,7 @@ function treeToHtml(tree, level = 0) {
       const uriEncoded = encodeURI(slideRelativePath);
       html += `<div class="flex items-center hover:text-white hover:bg-primary p-2 rounded-md">
         <i class="bi bi-file-earmark-slides mr-2"></i>`;
-      html += `<div class='w-full flex justify-between'>`;
+      html += `<div class='w-full flex justify-between gap-8'>`;
       html += `<span
         class="cursor-pointer"
         onclick="togglePreview('${uriEncoded}')" 
