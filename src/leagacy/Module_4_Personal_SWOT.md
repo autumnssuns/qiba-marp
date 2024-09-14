@@ -43,7 +43,7 @@ Grouped by:
 
 <div style="flex: 0.47">
 
-![Mermaid](./themes/Images/Personal_SWOT.mermaid.svg)
+![Mermaid](./Personal_SWOT.mermaid.svg)
 
 </div>
 

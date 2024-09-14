@@ -38,16 +38,16 @@ Factor groups:
 
 Summary:
 
-|  | Internal | External |
-|---|---|---|
-| **Beneficial** | **S**trengths | **O**pportunities |
-| **Harmful** | **W**eaknesses | **T**hreats |
+|                | Internal       | External          |
+| -------------- | -------------- | ----------------- |
+| **Beneficial** | **S**trengths  | **O**pportunities |
+| **Harmful**    | **W**eaknesses | **T**hreats       |
 
 </div>
 
 <div>
 
-![](./themes/Images/Swot_Analysis.png)
+![](./Swot_Analysis.png)
 
 </div>
 

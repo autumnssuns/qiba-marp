@@ -14,7 +14,7 @@ _class: title
 
 <div style="width: 120%; margin-top: -300px; margin-left: -150px; opacity: 0.45; margin-bottom: -120px; ">
 
-![Diversity_Banner](./themes/Images/QUT_Diversity.jpg)
+![Diversity_Banner](./QUT_Diversity.jpg)
 
 </div>
 
@@ -38,11 +38,11 @@ _class: title
 
 # Background on Age and Cultural Diversity
 
-| | **Age Diversity** | **Cultural Diversity** |
-|---|---|---|
-| **Manifestation** | Age groups | Countries of Origin |
-| **Example** | **Older** staff members working alongside students or **younger** staff | **International** and **Australian** staff / students |
-| **Challenges** | **Communication** and **Technology** | **Language** and **Cultural** Barriers |
+|                   | **Age Diversity**                                                       | **Cultural Diversity**                                |
+| ----------------- | ----------------------------------------------------------------------- | ----------------------------------------------------- |
+| **Manifestation** | Age groups                                                              | Countries of Origin                                   |
+| **Example**       | **Older** staff members working alongside students or **younger** staff | **International** and **Australian** staff / students |
+| **Challenges**    | **Communication** and **Technology**                                    | **Language** and **Cultural** Barriers                |
 
 **Similarities**: Environment, Goals and Values - <span class="slide-in">Offering and receiving quality education</span>
 
@@ -52,9 +52,9 @@ _class: title
 
 **Positive Impact of Diversity**:
 
-| **Age** | **Culture** |
-|---|---|
-| **Maturity**: experience, knowledge and wisdom | **International**: perspectives and exploring opportunities |
+| **Age**                                          | **Culture**                                                                |
+| ------------------------------------------------ | -------------------------------------------------------------------------- |
+| **Maturity**: experience, knowledge and wisdom   | **International**: perspectives and exploring opportunities                |
 | **Youth**: enthusiasm, creativity and innovation | **Local**: knowledge and understanding of Australian culture and processes |
 
 > All individuals must be <span class="slide-in">**treated fairly and have equal opportunities:**</span> [**Age Discrimination Act (ADA) 2004**](https://humanrights.gov.au/our-work/employers/age-discrimination) and [**Racial Discrimination Act (RDA) 1975**](https://humanrights.gov.au/our-work/race-discrimination/publications/know-your-rights-racial-discrimination-and-vilification)
@@ -71,10 +71,10 @@ _class: title
 
 <small>
 
-| **Age** | **Culture** |
-|---|---|
-| **Documentation** on technologies and workflow | Raise **Cultural Awareness** such as Acknowledgement of Country |
-| **Manage Expectations** and **Provide Support** | Multi-modality of **Learning and Teaching** |
+| **Age**                                         | **Culture**                                                     |
+| ----------------------------------------------- | --------------------------------------------------------------- |
+| **Documentation** on technologies and workflow  | Raise **Cultural Awareness** such as Acknowledgement of Country |
+| **Manage Expectations** and **Provide Support** | Multi-modality of **Learning and Teaching**                     |
 
 Comparison with **Vietnamese** practices:
 

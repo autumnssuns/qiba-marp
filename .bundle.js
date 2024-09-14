@@ -225,12 +225,12 @@ const html = `<!DOCTYPE html>
     <div class='mb-4'>
       This site is built using <a href="https://marp.app/">Marp</a>, a Markdown Presentation Ecosystem.
     </div>
-    <div class='flex flex-col lg:flex-row flex-start gap-8 lg:gap-40 text-nowrap mt-4'>
+    <div class='flex flex-col lg:flex-row flex-start items-start gap-8 lg:gap-40 text-nowrap mt-4'>
       <div class='leading-relaxed flex-1 border-l-4 border-0 border-primary border-solid pl-2 h-fit'>
         ${treeToHtml(buildTree(slides))}
       </div>
-      <div class="w-full">
-        <iframe id="preview" src="slides/Template.html" class="shadow-2xl w-full max-w-lg" style="aspect-ratio: 16/9; border: none;">
+      <div class="w-full sticky top-0">
+        <iframe id="preview" src="slides/Template.html" class="shadow-2xl w-full max-w-3xl" style="aspect-ratio: 16/9; border: none;">
         </iframe>
       </div>
     </div>
