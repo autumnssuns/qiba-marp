@@ -29,7 +29,21 @@ _class: title
 
 # What is a presentation?
 
-==**Structured**== method of ==**sharing information**== or ideas with an ==audience==.
+<!-- ==**Structured**== method of ==**sharing information**== or ideas with an ==audience==. -->
+
+<div class='grid grid-cols-2 gap-2'>
+
+> [!] 
+> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmmO0NqI77fOD0x9k_zZz-JCPruYHwm_LXtA&s" height="300px">
+> 
+> ==**Sharing information**==
+
+> [!] 
+> <img src="https://www.shutterstock.com/image-vector/audience-back-view-behind-people-600nw-2154053131.jpg" height="300px">
+> 
+> ==**Audience**==
+
+</div>
 
 
 ---
@@ -99,11 +113,19 @@ A presentation may belong to ==different== types.
 
 # Persuasive Presentations
 
-- **Clear Purpose**: The goal is to influence the audience's attitudes, beliefs, or behaviors, persuading them to adopt the speaker's viewpoint or recommendation.
-- **Strong Argumentation**: Provides solid arguments to support the speaker's position, often using logic, facts, data, and evidence.
-- **Emotional Appeal**: Engages the audience’s emotions (e.g., fear, hope, empathy) to strengthen the persuasive impact.
-- **Credibility of the Speaker**: The speaker needs to demonstrate expertise, reliability, and trustworthiness to enhance persuasion.
-- **Use of Rhetorical Devices**: Employs rhetorical techniques like analogies, metaphors, and rhetorical questions to enhance the persuasiveness of the language.
+<div class='grid grid-cols-1 gap-2'>
+
+> [!CARD] **Clear Purpose**
+
+> [!CARD] **Strong Argumentation**
+
+> [!CARD] **Emotional Appeal**
+
+> [!CARD] **Credibility of the Speaker**
+
+> [!CARD] **Use of Rhetorical Devices**
+
+</div>
 
 ---
 
@@ -133,17 +155,41 @@ A presentation may belong to ==different== types.
 
 > [!CARD] **Tutorial**
 >
-> - Demonstrative, informative
+> - **Demonstrative**, **informative**
+> - One to many
+> - **Teacher** to **Students**
+> - Based on a **defined** agenda
+> - Relies on clear **explanations** and **examples**
 
 > [!CARD] **Discussion**
 >
-> - Persuasive, interactive
+> - **Persuasive**, **interactive**
+> - Small group discussion / one to one
+> - **Equal** powers
+> - **Organic** flow of conversation
+> - Emphasises **argumentation** and **emotional** appeal
 
 </div>
 
 ---
 
 # `Do`s and `Don't`s
+
+<div class='grid grid-cols-2 gap-2'>
+
+> [!CARD] **Do**
+>
+> - **Engage** the audience
+> - **Use** visual aids
+> - Give **examples**
+> - **Encourage** questions
+
+> [!CARD] **Don't**
+>
+> - **Monopolise** the conversation
+> - **Read** from slides
+> - **Assume** knowledge
+> - **Rush** content
 
 <!-- - Informative:
   - Concept / theory heavy tutorials 
