@@ -1,7 +1,7 @@
 ---
 marp: true
-theme: qiba
-footer: '**QIBA - Module 1**<br>Workplace Communication'
+theme: tailwind
+footer: '**QIBA - Module 8**<br>Business Writing'
 ---
 
 <script src="./themes/timer.js"></script>
@@ -21,6 +21,130 @@ _class: title
 footer: ""
  -->
 
+# About Simmons Medical Practice
+
+- Established by Dr. Paul Simmons in 2004.
+- Strong reputation in the medical community.
+- Serves a diverse patient population.
+- Dedicated team of medical and administrative staff.
+- Offers a wide range of services to meet the healthcare needs of the community.
+- Known for its personalised approach to patient care.
+- Focus on delivering high-quality services.
+
+---
+
+# Identified Challenges
+
+- **Outdated IT Infrastructure**: The clinic's hardware and software systems are outdated, lacking scalability, reliability, and security.
+- **Lack of Integration**: Disconnected accounting and patient management systems lead to data silos and inefficiencies.
+- **Data Security Risks**: In-house data storage and IT maintenance by Dr. Simmons pose security risks and compliance challenges.
+- **Limited Automation**: The Patient Management System lacks automation features, affecting patient engagement and care delivery.
+
+---
+
+# Strategic Objectives
+
+| **Objective**                     | **Description**                                               | **Recommendations**                                              | **Example Services**                  |
+| --------------------------------- | ------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------- |
+| **IT Infrastructure Upgrade**     | Upgrade IT for better reliability, security, and performance. | - Cloud storage & backup<br>- Network upgrade<br>- Cybersecurity | Microsoft Azure, AWS, VPNs, RDS       |
+| **Accounting System Integration** | Streamline financial processes and integrate systems.         | - Cloud accounting<br>- API integration<br>- Staff training      | Xero, QuickBooks Online               |
+| **Data Security Enhancement**     | Improve data protection and ensure compliance.                | - Encryption<br>- Backup & disaster recovery<br>- Compliance     | AWS KMS, Veeam, Acronis               |
+| **Patient Management Automation** | Automate patient engagement and communication.                | - Appointment reminders<br>- Patient portal or mobile app        | AWS SNS, Twilio, HealthEngine, HotDoc |
+
+---
+
+# VitaLink Competencies
+
+<div class='grid grid-cols-3 gap-2 text-sm'>
+
+> [!CARD] **Competitive Advantage**  
+> - Specialised healthcare IT expertise  
+> - Tailored solutions for clinic needs  
+> - Proven success in healthcare IT projects  
+> - Access to cutting-edge technologies
+
+> [!CARD] **Team Qualifications**  
+> - Certified IT professionals  
+> - Expertise in cloud computing, data security, and system integration  
+> - Dedicated project managers ensuring quality and success
+
+> [!CARD] **Success Stories**  
+> - Endorsed by AMA & RACGP  
+> - Case studies showing cost reduction, increased patient engagement, and enhanced data security
+
+</div>
+
+---
+
+# Testimonials
+
+<div class='grid grid-cols-3 gap-2'>
+
+![Testimonial 1](./Frame_2.png)
+
+![Testimonial 2](./Frame_3.png)
+
+![Testimonial 3](./Frame_4.png)
+
+</div>
+
+---
+
+# Project Milestones
+
+<div class='text-sm'>
+
+| **Milestone**                  | **Time**    | **Key Activities**                                                          |
+| ------------------------------ | ----------- | --------------------------------------------------------------------------- |
+| **Discovery & Assessment**     | Month 1     | On-site reviews, staff interviews, and data security audits.                |
+| **Solution Design & Planning** | Months 2-3  | Design upgrades, integrations, and project planning with timelines.         |
+| **Acquisition & Setup**        | Months 4-6  | Procure hardware, configure cloud services, and set up secure environments. |
+| **Development & Testing**      | Months 7-11 | Build custom solutions, test integrations, and conduct quality assurance.   |
+| **Training & Handover**        | Month 12    | Train staff, provide documentation, and ensure ongoing support.             |
+
+</div>
+
+---
+
+# Launch Cost
+
+| **Objective**                            | **Cost Range**    |
+| ---------------------------------------- | ----------------- |
+| **IT Infrastructure Upgrade**            | $30,000 - $50,000 |
+| **Accounting System Integration**        | $15,000 - $25,000 |
+| **Data Security Enhancement**            | $15,000 - $25,000 |
+| **Patient Management System Automation** | $30,000 - $40,000 |
+| **Training and Handover**                | $2,000 - $5,000   |
+
+**Total Estimated Cost**: $100,000 - $150,000
+
+---
+
+# Operational Cost
+
+| **Service**                | **Monthly Cost** |
+| -------------------------- | ---------------- |
+| **Cloud-based services**   | $250 - $500      |
+| **Domain and hosting**     | $50 - $100       |
+| **Software subscriptions** | $100 - $200      |
+
+**Estimated Monthly Total**: $400 - $800
+
+---
+
+# Conclusion & Next Steps
+
+This proposal presents VitaLink's IT solutions to enhance Simmons Medical Practice’s operational efficiency, data security, and patient care.
+
+**Next Steps**:
+1. **Consultation**: Refine project scope, timeline, and budget.
+2. **Review**: Approve solutions, cost breakdown, and implementation plan.
+3. **Contract Negotiation**: Finalise service agreements, including guarantees and SLAs.
+
+To proceed, please contact us at [projects@vitalink.com.au](mailto:projects@vitalink.com.au) to schedule a detailed consultation. We look forward to collaborating with Simmons Medical Practice!
+
+
+<!-- 
 # Line Chart
 
 <div class='data-table' data-chart-type='line' style='height: 75vh'>
@@ -217,4 +341,4 @@ const data = {
   };
 
   new Chart(ctx, config);
-</script>
+</script> -->

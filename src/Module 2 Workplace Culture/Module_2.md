@@ -1,3 +1,7 @@
+---
+marp: false
+---
+
 Organisational Responsibilities for managing WHS
 In Queensland, Australia, the organisational responsibilities for managing Work Health and Safety (WHS) under current legislation are as follows:
 Ensure safe systems of work: Organisations must establish and maintain safe methods of working to prevent workplace accidents and injuries.
