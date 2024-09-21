@@ -18,10 +18,12 @@ _class: title
 # Agenda
 
 - ==Different== kinds of presentations and their characteristics.
-  - Purpose
-  - Audience
-  - Characteristics
-- ==Good vs bad== presentations
+- ==Scenarios== to illustrate the types of presentations.
+  - University tutorial
+  - Persuasive discussion
+- ==Common== characteristics of good presentations.
+- ==Difference== between tutorial and discussion.
+- ==Do==s and ==Don't==s for each type of presentation.
 
 ---
 
@@ -70,19 +72,9 @@ A presentation may belong to ==different== types.
 
 ---
 
-# Bad vs Good Tutorials
+# Example Tutorial
 
-Same content, different presentation styles and visuals.
-
-<div class='grid grid-cols-2 gap-2'>
-
-> [!CARD] Bad Presentation
-> <iframe src="https://autumnssuns.github.io/qiba-marp/slides/Module%2010%20Presentations/Bad%20Tutorial.html" width="100%" height="200px" allow="fullscreen"></iframe>
-
-> [!CARD] Good Presentation
-> <iframe src="https://autumnssuns.github.io/qiba-marp/slides/Module%2010%20Presentations/Good%20Tutorial.html" width="100%" height="200px" allow="fullscreen"></iframe>
-
-</div>
+<iframe src="https://autumnssuns.github.io/qiba-marp/slides/Module%2010%20Presentations/Good%20Tutorial.html" width="100%" height="600px" allow="fullscreen"></iframe>
 
 ---
 
@@ -132,6 +124,26 @@ Same content, different presentation styles and visuals.
 > - **Visual Aids**: Slides, charts, videos, or other materials that support the spoken message.
 
 </div>
+
+---
+
+# Difference
+
+<div class='grid grid-cols-2 gap-2'>
+
+> [!CARD] **Tutorial**
+>
+> - Demonstrative, informative
+
+> [!CARD] **Discussion**
+>
+> - Persuasive, interactive
+
+</div>
+
+---
+
+# `Do`s and `Don't`s
 
 <!-- - Informative:
   - Concept / theory heavy tutorials 
