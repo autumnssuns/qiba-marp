@@ -48,7 +48,7 @@ window.navigation.addEventListener('navigate', (event) => {
   if (!isAutoMove) return;
   // Once the timer is done, navigate to the next slide
   moveSlide = setInterval(() => {
-    window.navigation.navigate(`#${slideNumber + 1}`);
+    window.location.hash = `#${slideNumber + 1}`;
     clearInterval(moveSlide);
   }, time * 1000);
 });

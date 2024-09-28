@@ -10,6 +10,12 @@ size: 16:9
    1. What they know vs
    2. What I know
 2. Use structures to build on ideas
+   1. Seed & Hook
+3. Use visuals 
+4. Good repetition of content
+5. Have a story to tell
+6. Be relatable
+7. Build confidence with practice
 
 ---
 
@@ -46,3 +52,11 @@ size: 16:9
 > - Reinforcement
 
 :::
+
+---
+
+# Assessment requirements
+
+- Persuade
+  - Trust
+  - Anecdotes
