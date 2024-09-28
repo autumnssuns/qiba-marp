@@ -3,19 +3,19 @@ marp: true
 theme: tailwind
 ---
 
-<!-- <script src="scripts/timer.js"></script> -->
+<script src="scripts/timer.js"></script>
 
 <!-- 
 _class: title timer timer-20 timer-auto
 -->
 
-![bg](https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png)
-
 <!-- 
 Presenter notes for slide 1
 -->
 
-# Title Slide
+# Effective Advertising
+
+## [When ready, click to start](#2)
 
 ---
 
@@ -29,7 +29,7 @@ For example,
 Family reunion, food, gifts, and traditions
 -->
 
-# The Lunar New Year
+<!-- # The Lunar New Year -->
 
 ![bg vertical](https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2024-02/240207-lunar-new-year-festival-san-francisco-vl-235p-332c2a.jpg)
 ![bg](https://sangom.vn/wp-content/uploads/2022/07/tet-nguyen-dan-la-gi-18.jpg)
@@ -44,7 +44,7 @@ Has nothing to do with Tet, but so memorable
 Question - when did this started?
 -->
 
-# The Kinh Do Case Study
+<!-- # The Kinh Do Case Study -->
 
 ::: dynamic class="absolute left-48 top-16 text-red-500 text-center font-black w-fit bg-white p-2"
 
@@ -103,55 +103,126 @@ Did Kinh Do and Coca-Cola achieve these goals? Absolutely!
 
 ---
 
-# 
+<!-- 
+We saw two examples of memorable advertising
+Let's break down how they achieved this
+And discover what makes memorable advertising
+-->
+
+# What makes memorable advertising?
+
+![bg](https://www.feedough.com/wp-content/uploads/2018/10/EFFECTIVE-AD.png)
 
 ---
 
-# Slide 7
+<!-- 
+Theme: Cultural significance
+src: https://www.brandsvietnam.com/congdong/topic/322512-Campaign-Tet-2022-Slogan-Thay-Kinh-Do-la-thay-Tet-co-tu-bao-gio
+Case study: Kinh Do
+Since 2007, Kinh Do has been focusing on Tet
+Instilled in the minds of generations of Vietnamese
+Different messages every year
+It does feel like, Tet is coming
+-->
+
+<!-- 
+_class: no-margin
+-->
+
+::: dynamic class="absolute left-48 bottom-48 text-red-500 text-center font-black w-fit bg-white p-2"
+
+Wholesome spring day, happy whole year
+
+:::
+
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/XVOxA4Z_npk?start=30" title="Kinh Do Tet 2007 .mpg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
-# Slide 8
+<!-- 
+Theme: Emotional connection
+src: https://www.linkedin.com/pulse/ad-genius-story-behind-share-coke-campaign-doug-kennedy-aoile
+Case study: Coca-Cola
+2011, Share a Coke campaign
+Personalised bottles with names
+Went viral on social media
+Created a sense of community and emotional connection
+-->
+
+![bg](https://media.licdn.com/dms/image/D4E12AQGSAgHixuBv8w/article-cover_image-shrink_720_1280/0/1713058302710?e=2147483647&v=beta&t=I-7FTmloPiRE1TIUs0SfrSifQNPQYm2Q30SuIZDC9ak)
 
 ---
 
-# Slide 9
+<!--
+_class: no-margin
+ -->
+
+<!-- 
+Theme: Consistency in branding
+
+
+ -->
+
+<div class='grid grid-cols-[33%_67%]'>
+
+::: dynamic flex flex-col
+
+<div class='bg-red-600 text-red-600 w-50 h-1/2'>
+Test
+</div>
+<div class='bg-blue-800 text-blue-800 w-50 h-1/2'>
+Test
+</div>
+
+:::
+
+::: dynamic class="blur-3xl hover:blur-0 transition-all"
+
+![](https://www.labelsandlabeling.com/europe/sites/labels/lnl/files/inline-images/1680073440370.jpg){ class="max-w-fit max-h-screen" } { .!m-0 }
+
+:::
+
+</div>
 
 ---
 
-# Slide 10
+![bg]()
 
 ---
 
-# Slide 11
+# Catchy slogans
 
 ---
 
-# Slide 12
+# Innovative techniques
 
 ---
 
-# Slide 13
+<!-- 
+BTS McDonald's meal
+-->
+
+# Celebrity endorsements
 
 ---
 
-# Slide 14
+# Elements of surprise
 
 ---
 
-# Slide 15
+# Memorable characters
 
 ---
 
-# Slide 16
+# Call to action
 
 ---
 
-# Slide 17
+# Helpful information
 
 ---
 
-# Slide 18
+# Repetition
 
 ---
 
