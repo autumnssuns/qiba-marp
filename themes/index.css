@@ -118,6 +118,10 @@
   position: static;
 }
 
+.absolute{
+  position: absolute;
+}
+
 .relative{
   position: relative;
 }
@@ -130,8 +134,16 @@
   inset: 0px;
 }
 
+.left-48{
+  left: 12rem;
+}
+
 .top-0{
   top: 0px;
+}
+
+.top-16{
+  top: 4rem;
 }
 
 .\!m-0{
@@ -276,6 +288,15 @@
 
 .w-80{
   width: 20rem;
+}
+
+.w-\[50vh\]{
+  width: 50vh;
+}
+
+.w-fit{
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .w-full{
@@ -575,6 +596,11 @@
   line-height: 2.25rem !important;
 }
 
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -593,6 +619,10 @@
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.font-black{
+  font-weight: 900;
 }
 
 .font-bold{
@@ -653,6 +683,11 @@
 .text-primary{
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+
+.text-red-500{
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .text-white{
