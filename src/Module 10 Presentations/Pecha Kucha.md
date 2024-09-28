@@ -126,7 +126,7 @@ It does feel like, Tet is coming
 -->
 
 <!-- 
-_class: no-margin
+_class: no-margin timer timer-20 timer-auto
 -->
 
 ::: dynamic class="absolute left-48 bottom-48 text-red-500 text-center font-black w-fit bg-white p-2"
@@ -135,7 +135,7 @@ Wholesome spring day, happy whole year
 
 :::
 
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/XVOxA4Z_npk?start=30" title="Kinh Do Tet 2007 .mpg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/XVOxA4Z_npk?start=30&amp;controls=0&amp;autoplay=1" title="Kinh Do Tet 2007 .mpg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -154,7 +154,7 @@ Created a sense of community and emotional connection
 ---
 
 <!--
-_class: no-margin
+_class: no-margin timer timer-20 timer-auto
  -->
 
 <!-- 
@@ -186,11 +186,21 @@ Test
 
 ---
 
-![bg]()
+<!-- 
+_class: no-margin timer timer-20 timer-auto
+-->
+
+<!-- 
+Theme: Humour
+ -->
+
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/6-1Ue0FFrHY?si=jXffkBq0D7klrwCt&amp;controls=0&amp;start=10&amp;autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
 # Catchy slogans
+
+![bg](https://mapexpo.wordpress.com/wp-content/uploads/2015/10/maxresdefault1.jpg)
 
 ---
 
