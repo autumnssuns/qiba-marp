@@ -1,4 +1,5 @@
 /* @theme tailwind */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -93,6 +94,13 @@ ul {
     var(--color-secondary) 100%
   );
   color: var(--color-background);
+}
+
+.interactive {
+  @apply transition-all;
+  &.interactive-shadow:hover {
+    @apply shadow-xl;
+  }
 }
 
 mark {
