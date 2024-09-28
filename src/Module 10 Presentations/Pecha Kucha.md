@@ -204,27 +204,64 @@ Theme: Humour
 
 ---
 
+<!-- 
+src: https://www.adweek.com/performance-marketing/gatorade-launches-snapchat-video-game-ad-serena-williams-match-point/
+Theme: Innovative techniques
+Case study: Gatorade
+Celebrate Serena Williams' 23rd Grand Slam
+(Grand Slam is winning all 4 major tournaments in a year)
+Snapchat video game ad
+-->
+
 # Innovative techniques
+
+![bg](https://getgist.com/wp-content/uploads/2019/04/Serena-william-tennis.png)
 
 ---
 
 <!-- 
+Theme: Celebrity endorsements
+src: https://www.linkedin.com/pulse/mcdonalds-bts-meal-proved-power-influencer-marketing-subramaniam
 BTS McDonald's meal
 -->
 
 # Celebrity endorsements
 
+![bg](https://the-post-assets.sgp1.digitaloceanspaces.com/2021/06/BTS-Meal-1.jpg)
+
 ---
+
+<!-- 
+Theme: Elements of surprise
+Gucci's handwritten logo in 2020
+ -->
 
 # Elements of surprise
 
+![bg](https://admin.itsnicethat.com/images/hx7UHmHDMshA2qxfV0xXS1AI-uU=/176682/width-1440%7Cformat-jpeg/gucci-handwritten-logo-graphic-design-itsnicethat-01.png)
+
 ---
+
+<!-- 
+Theme: Memorable characters
+KFC's Colonel Sanders
+ -->
 
 # Memorable characters
 
+![bg](https://ew.com/thmb/Mk5QSknHjw6DaXXEi19Vdox_Ubw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/kentucky-fried-chicken-281f1dea36bf43ed9f1d928f7b6e74c1.jpg)
+
 ---
 
+<!-- 
+Theme: Call to action
+Example: Petbarn Puppy School
+Interactive training courses for puppies
+ -->
+
 # Call to action
+
+![bg](https://www.petbarn.com.au/petspot/app/uploads/2013/10/CTA_Banner_990x864_PuppySchool.jpg)
 
 ---
 
